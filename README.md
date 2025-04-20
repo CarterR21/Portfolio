@@ -2,9 +2,9 @@
 A showcase of my most recent projects
 
 ## 💻 Table of Contents
--[SQL](#sql)
--[Coding](#coding)
--[Visualization](#visualization)
+- [SQL](#sql)
+- [Coding](#coding)
+- [Visualization](#visualization)
 
 ***
 
