@@ -20,7 +20,7 @@ A showcase of my most recent projects
 
 | Project | Analysis Overview | Description | Libraries |
 |---|---|---|---|
-|[Data Wrangling With Pandas](https://github.com/CarterR21/Portfolio/tree/main/Pandas%20Data%20Wrangling)|
+|[Pandas Data Wrangling](https://github.com/CarterR21/Portfolio/tree/main/Pandas%20Data%20Wrangling)|
 |[Automated Cypto Website API Pull](https://github.com/CarterR21/Portfolio/tree/main/Automated%20Crypto%20Website%20API%20Pull)|
 
 ***
