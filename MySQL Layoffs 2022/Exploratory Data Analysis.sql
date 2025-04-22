@@ -3,6 +3,7 @@
 SELECT *
 FROM layoffs_staging2;
 
+-- Find companies with the highest percentage laid off
 SELECT MAX(total_laid_off), MAX(percentage_laid_off)
 FROM layoffs_staging2;
 
@@ -11,13 +12,11 @@ FROM layoffs_staging2
 WHERE percentage_laid_off = 1
 ORDER BY funds_raised_millions DESC;
 
+-- Find identifiers with the highest total laid off
 SELECT company, SUM(total_laid_off)
 FROM layoffs_staging2
 GROUP BY company
 ORDER BY 2 DESC;
-
-SELECT MIN(`date`), MAX(`date`)
-FROM layoffs_staging2;
 
 SELECT industry, SUM(total_laid_off)
 FROM layoffs_staging2
@@ -29,10 +28,16 @@ FROM layoffs_staging2
 GROUP BY country
 ORDER BY 2 DESC;
 
+
+-- Find total laid off by date
+SELECT MIN(`date`), MAX(`date`)
+FROM layoffs_staging2;
+
 SELECT YEAR(`date`), SUM(total_laid_off)
 FROM layoffs_staging2
 GROUP BY YEAR(`date`)
 ORDER BY 1 DESC;
+
 
 SELECT stage, SUM(total_laid_off)
 FROM layoffs_staging2
