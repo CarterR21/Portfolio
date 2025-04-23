@@ -38,7 +38,7 @@ FROM layoffs_staging2
 GROUP BY YEAR(`date`)
 ORDER BY 1 DESC;
 
-
+-- Exploring to see any patterns
 SELECT stage, SUM(total_laid_off)
 FROM layoffs_staging2
 GROUP BY stage
@@ -66,6 +66,7 @@ ORDER BY 1 ASC
 SELECT `MONTH`, total_off, SUM(total_off) OVER(ORDER BY `MONTH`) AS rolling_total
 FROM rolling_total;
 
+-- Rank top 5 laid off per year
 SELECT company, YEAR(`date`), SUM(total_laid_off)
 FROM layoffs_staging2
 GROUP BY company, YEAR(`date`)
@@ -85,3 +86,24 @@ WHERE years IS NOT NULL
 SELECT *
 FROM company_year_rank
 WHERE ranking <= 5;
+
+
+-- Get total percentage laid off
+CREATE TEMPORARY TABLE layoffs_staging3
+SELECT * FROM layoffs_staging2;
+
+ALTER TABLE layoffs_staging3
+ADD total_employees varchar(255);
+
+DELETE
+FROM layoffs_staging3
+WHERE total_laid_off is null or percentage_laid_off is null;
+
+UPDATE layoffs_staging3
+SET total_employees = ROUND(total_laid_off / percentage_laid_off)
+WHERE NOT percentage_laid_off = 0;
+
+SELECT company, ROUND(SUM(total_laid_off)/SUM(total_employees),2) AS total_percentage_laid_off
+FROM layoffs_staging3
+GROUP BY company
+ORDER BY total_percentage_laid_off DESC;
