@@ -1,4 +1,6 @@
-# Introduction
+# Layoffs Case Study
+
+## Introduction
 For this project I did not know what exactly I wanted to do with this information or what I wanted to learn. I wanted to explore and handle the data to see what insights I could get from it.
 
 ## Part 1: Cleaning
