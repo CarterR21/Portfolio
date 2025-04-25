@@ -1,7 +1,7 @@
 # Pandas Exercise
 
 ## Introduction
-This project is a dive into python that focuses on using the pandas library, first walking through the steps of the functions we'll need then combining it to how we would use it during data cleaning and visualization.
+This project is a dive into python that focuses on using the pandas library, first walking through the steps of the functions we'll need then combining them use during data cleaning and visualization.
 
 ## Table of Contents
 - [Exploratory Data Analysis](#eda)
