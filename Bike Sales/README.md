@@ -102,7 +102,7 @@ Because I have three pivot tables, one for each qeuestion, I think that a good w
 ### Dashboard
 Up next we have our dashboard, this is where the data we collected to answer the questions will be presented. Designed to be clear and consise as to not waste time answering questions or cluttering up the data. Of note, the yes and no legend refer to if the group has bought a bike or not.
 
-![image](https://github.com/user-attachments/assets/32ed885e-0be8-4a96-b6fd-dbaef4019a48)
+![image](https://github.com/user-attachments/assets/7415988f-410d-4f2e-9ab7-28adbdd0c691)
 
 ### Results
 As you'll remember our questions were:
