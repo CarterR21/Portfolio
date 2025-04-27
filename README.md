@@ -12,7 +12,7 @@ A showcase of my most recent projects
 
 | Project | Analysis Overview | Description |
 |---|---|---|
-|[MySQL Layoffs](https://github.com/CarterR21/Portfolio/tree/main/MySQL%20Layoffs%202022)|Data cleaning, data wrangling, and data analysis|A study of AirBnB prices in Seattle, Washington in 2016 that helps people know what is an acceptable rate to both pay for an AirBnB and an acceptable rate to set the rent at. Going indepth with reports on each zip code as well as the expected values of an AirBnB based on the number of bedrooms it has.|
+|[MySQL Layoffs](https://github.com/CarterR21/Portfolio/tree/main/MySQL%20Layoffs%202022)|Data cleaning, data wrangling, and data analysis|An EDA dive into the large amount of layoffs in 2022 to find patterns and reasons behind it. Looking for companies most and least affected by these layoffs and finding out why.|
 
 ***
 
