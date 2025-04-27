@@ -13,7 +13,6 @@ We can also see that there is a steady decline in availability as the number of 
 Finally we can see the revenue for the year to see when it's most common to rent and to see how steady of income one can expect. For this dataset we see a large climb from January to March and then a steady increase with minor deviation after. This means that the income from AirBnB is rather steady year round and only increasing, it would be a good time to invest in AirBnB here as over two million was made in Seattle, Washington in 2016.
 
 ## Visualization
+[Interactive Dashboard Here](https://public.tableau.com/app/profile/carter.retzlaff/viz/AirBnB_17452081934760/Dashboard1?publish=yes)
 
 ![image](https://github.com/user-attachments/assets/e93f0698-0e09-44b6-b043-a9c70edbf751)
-
-[Interactive Link Here](https://public.tableau.com/app/profile/carter.retzlaff/viz/AirBnB_17452081934760/Dashboard1?publish=yes)
